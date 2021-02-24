@@ -1,0 +1,17 @@
+
+
+<% if  %>
+	<div class="alert alert-danger" role="alert">
+		<%= notice%>
+	  
+	</div>
+
+<% elsif link_to == 'New Ticket' %>
+	<div class="alert alert-success" role="alert">
+	  <h4 class="alert-heading">Your ticket has been submitted</h4>
+	  <%= notice%>
+	  <hr>
+	  <p class="mb-0">Thank you for sumbmitting a ticket, We will get back to you ASAP. If you need emergency help please contact hour help line at 1-800-452-3543</p>
+	</div>
+ <%end%>
+ 
